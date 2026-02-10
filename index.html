@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eure SPIELWIESE – Onlinekurs für Paare</title>
+
+<style>
+:root{
+  --orange:#ff6a00;
+  --orange-soft:#ffb066;
+  --purple:#6a00ff;
+  --purple-soft:#b799ff;
+  --dark:#1a1a1a;
+  --light:#ffffff;
+  --gray:#f5f5f7;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;}
+
+body{
+  background:var(--light);
+  color:var(--dark);
+  line-height:1.5;
+}
+
+/* Layout */
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+/* Hero */
+.hero{
+  padding:60px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,var(--orange),var(--purple));
+  color:white;
+}
+
+.hero h1{
+  font-size:2rem;
+  margin-bottom:10px;
+}
+
+.hero p{
+  opacity:0.95;
+}
+
+/* Buttons */
+.cta{
+  margin-top:25px;
+  display:inline-block;
+  background:linear-gradient(135deg,var(--orange),var(--purple));
+  color:white;
+  padding:12px 22px;
+  border-radius:30px;
+  font-weight:600;
+  text-decoration:none;
+  transition:0.2s;
+}
+
+.cta:hover{
+  transform:translateY(-1px);
+  opacity:0.95;
+}
+
+/* Sections */
+.section{
+  padding:50px 0;
+}
+
+.section h2{
+  margin-bottom:15px;
+  font-size:1.6rem;
+}
+
+.card{
+  background:var(--gray);
+  padding:20px;
+  border-radius:14px;
+  margin-bottom:15px;
+}
+
+/* Module */
+.module{
+  border-left:4px solid var(--purple);
+}
+
+/* Image placeholder */
+.image{
+  width:100%;
+  border-radius:14px;
+  margin:20px 0;
+}
+
+/* Footer */
+.footer{
+  text-align:center;
+  padding:40px 20px;
+  font-size:0.9rem;
+  opacity:0.6;
+}
+
+/* Desktop */
+@media(min-width:700px){
+  .hero h1{font-size:2.5rem;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Eure SPIELWIESE</h1>
+  <p>Der Onlinekurs für Paare, die sexuelle Unlust verstehen und ihre Beziehungs- und Sexualkultur neu gestalten wollen.</p>
+  <a href="#" class="cta">Hier mehr erfahren</a>
+</section>
+
+<div class="container">
+
+  <!-- INTRO -->
+  <section class="section">
+    <h2>Worum es geht</h2>
+    <p>
+      Viele Paare erleben Phasen von Unlust. In SPIELWIESE versteht ihr zuerst, warum sie entsteht.
+      Danach gestaltet ihr eure Beziehung und Sexualität bewusst neu – für mehr Leichtigkeit,
+      Verbindung, Tiefe und spielerisches Entdecken.
+    </p>
+
+    <img class="image" src="images/paar1.jpg" alt="Paar Verbindung">
+  </section>
+
+  <!-- KURSFORMAT -->
+  <section class="section">
+    <h2>So funktioniert der Kurs</h2>
+
+    <div class="card">• 5 Module mit Video-Inputs und Anleitung durch mich</div>
+    <div class="card">• Hintergrundwissen & Aufklärung zu sexueller Unlust</div>
+    <div class="card">• Praktische Übungen zur Auswahl – passend für eure Übungszeit heute</div>
+    <div class="card">• Fokus auf Verbindung, Körper, Beziehungskultur und Sexualkultur</div>
+  </section>
+
+  <!-- MODULE -->
+  <section class="section">
+    <h2>Die 5 Module</h2>
+
+    <div class="card module"><strong>Modul 1 – Verstehen</strong><br>Warum entsteht Unlust? Psychologie, Körper, Beziehung, Kontext.</div>
+    <div class="card module"><strong>Modul 2 – Verbindung</strong><br>Emotionale Nähe, Sicherheit und echte Begegnung aufbauen.</div>
+    <div class="card module"><strong>Modul 3 – Körper</strong><br>Wahrnehmung, Embodiment und Zugang zu Lust neu entdecken.</div>
+    <div class="card module"><strong>Modul 4 – Sexualkultur</strong><br>Alte Muster lösen und neue Formen von Sexualität gestalten.</div>
+    <div class="card module"><strong>Modul 5 – Spielwiese</strong><br>Spielerisch erforschen, vertiefen und eure eigene Praxis entwickeln.</div>
+
+    <img class="image" src="images/paar2.jpg" alt="Paar Nähe">
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <h2>Für wen?</h2>
+    <p>
+      Für Paare in festen Beziehungen, die sexuelle Unlust verändern wollen –
+      nicht durch Druck, sondern durch Verständnis, Verbindung und neue Erfahrungen.
+    </p>
+
+    <br>
+
+    <a href="https://forms.gle/XEMU6DSs2SJ8xmce8" target="_blank" class="cta">
+      Hier eintragen in Warteliste
+    </a>
+
+    <br><br>
+
+    <a href="#" class="cta">
+      Zum Kurs – Kontakt aufnehmen
+    </a>
+  </section>
+
+</div>
+
+<footer class="footer">
+  © SPIELWIESE – Onlinekurs für Paare
+</footer>
+
+</body>
+</html>
